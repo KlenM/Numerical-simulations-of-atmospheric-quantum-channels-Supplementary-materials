@@ -35,10 +35,15 @@ After that, you can interact with the user interface:
 
 
 ## Data sample
-The transmittance data sample can be found in the files: `02_data_sample/{channel_name}/transmittance.csv`, where `channel_name` can take the values as:
+The transmittance data sample can be found in the files: `02_data_sample/{channel_name}/transmittance.csv`.
+
+Available `channel_name` values:
 - `weak_zap` -- Weak turbulence impact with wave-front radius $F_0=z_{ap}$.
+- `weak_inf` -- Weak turbulence impact with wave-front radius $F_0=\infty$.
 - `moderate_zap` -- Moderate turbulence impact with wave-front radius $F_0=z_{ap}$.
+- `moderate_inf` -- Moderate turbulence impact with wave-front radius $F_0=\infty$.
 - `strong_zap` -- Strong turbulence impact with wave-front radius $F_0=z_{ap}$.
+- `strong_inf` -- Strong turbulence impact with wave-front radius $F_0=\infty$.
 
 The `transmittance.csv` files are organised in such a way:
 - The first row is the list of aperture radii.
@@ -51,13 +56,6 @@ The PDT functions can be found in the files `03_results/{channel_name}/{model_na
 
 The Kolmogorov-Smirnov results can be found in the `03_results/{channel_name}/{model_name}/ks_values.csv` files.
 
-Available `channel_name` values:
-- `weak_zap` -- Weak turbulence impact with wave-front radius $F_0=z_{ap}$.
-- `weak_inf` -- Weak turbulence impact with wave-front radius $F_0=0$.
-- `moderate_zap` -- Moderate turbulence impact with wave-front radius $F_0=z_{ap}$.
-- `moderate_inf` -- Moderate turbulence impact with wave-front radius $F_0=0$.
-- `strong_zap` -- Strong turbulence impact with wave-front radius $F_0=z_{ap}$.
-- `strong_inf` -- Strong turbulence impact with wave-front radius $F_0=0$.
 
 ## Source code
 
