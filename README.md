@@ -49,6 +49,9 @@ The `transmittance.csv` files are organised in such a way:
 - The first row is the list of aperture radii.
 - The next rows are samples of transmittances for each aperture radius.
 
+The numerically-simulated data do not take into account constant losses in the atmosphere, which are typically of the order of 0.1 db/km.
+To account for them, all random transmittance values should be multiplied by the appropriate constant transmittance.
+
 
 ## Results
 
