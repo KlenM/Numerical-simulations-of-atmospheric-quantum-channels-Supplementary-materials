@@ -3,7 +3,7 @@
 ## Structure
 
 - **01_interactive** - contains a Jupyter notebook for interactive study of the data (PDT- and KS-values) for different channels and aperture radii;
-- **02_data_sample** - contains samples of the transmittance in the `.csv` format: several aperture radii for three channels (100 000 iterations);  
+- **02_data_sample** - contains samples of the transmittance in the `.csv` format: several aperture radii for three channels;
 - **03_results** - contains the transformed data: PDT- and KS-values for all the numerical and analytical models;
 - **04_src** - the source code of the project.
 
@@ -42,7 +42,6 @@ Available `channel_name` values:
 - `weak_inf` -- Weak turbulence impact with wave-front radius $F_0=\infty$.
 - `moderate_zap` -- Moderate turbulence impact with wave-front radius $F_0=z_{ap}$.
 - `moderate_inf` -- Moderate turbulence impact with wave-front radius $F_0=\infty$.
-- `strong_zap` -- Strong turbulence impact with wave-front radius $F_0=z_{ap}$.
 - `strong_inf` -- Strong turbulence impact with wave-front radius $F_0=\infty$.
 
 The `transmittance.csv` files are organised in such a way:
